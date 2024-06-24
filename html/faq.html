@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEALSHARE FAQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .question {
+            cursor: pointer;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .answer {
+            display: none;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>MEALSHARE FAQ</h1>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">1. What is MealShare?</div>
+        <div class="answer">MEALSHARE is a platform that connects surplus food donors with those in need. It aims to reduce food waste and alleviate hunger in the community.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">2. How does MEALSHARE work?</div>
+        <div class="answer">MEALSHARE works by allowing users to create accounts, post surplus food details, search and request food, communicate with donors/recipients, and confirm arrangements for pick-up/delivery.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">3. What are the main objectives of MEALSHARE?</div>
+        <div class="answer">The main objectives of MEALSHARE are to reduce food waste, alleviate hunger in the community, and foster a sense of community and collaboration.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">4. What are the benefits of using MEALSHARE?</div>
+        <div class="answer">The benefits of using MEALSHARE include an easy and efficient way to donate surplus food, direct impact on local communities, and environmentally friendly practices by reducing food waste.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">5. How can I ensure the safety of my food donations?</div>
+        <div class="answer">MEALSHARE provides safety guidelines and best practices for food donations, including proper handling and packaging, expiration date awareness, and transportation guidelines.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">6. Are there any legal considerations when using MEALSHARE?</div>
+        <div class="answer">Users should comply with local food safety regulations and be aware of liability and disclaimers to protect themselves and others.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">7. What impact does MEALSHARE have on the community?</div>
+        <div class="answer">MEALSHARE helps reduce food waste, increases access to nutritious food, and strengthens community bonds.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">8. Can you share any success stories from MEALSHARE?</div>
+        <div class="answer">Yes, MEALSHARE has had numerous success stories and positive outcomes, which demonstrate the effectiveness of the platform in addressing food waste and hunger.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">9. How can I promote MEALSHARE?</div>
+        <div class="answer">You can promote MEALSHARE through social media campaigns, collaboration with local businesses and organizations, and participation in community events and partnerships.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">10. What are the future plans for MEALSHARE?</div>
+        <div class="answer">MEALSHARE is continuously evolving and exploring opportunities for development and expansion. Users are encouraged to provide feedback and suggestions for improvement.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">11. How can I get involved with MEALSHARE?</div>
+        <div class="answer">You can get involved with MEALSHARE by signing up as a donor or recipient, spreading the word in the community, and participating in its activities and initiatives.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">12. Can individuals and businesses both participate in MEALSHARE?</div>
+        <div class="answer">Yes, both individuals and businesses can participate in MEALSHARE by donating surplus food or by requesting food donations.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">13. Is MEALSHARE available in multiple languages?</div>
+        <div class="answer">Currently, MEALSHARE is available in English only, but plans are in place to expand to other languages in the future.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">14. How does MEALSHARE ensure the quality of donated food?</div>
+        <div class="answer">MEALSHARE encourages donors to provide details about the quality and condition of donated food. Recipients can also provide feedback on the received food items.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">15. Can I donate non-perishable food items through MEALSHARE?</div>
+        <div class="answer">Yes, MEALSHARE accepts donations of both perishable and non-perishable food items.</div>
+    </div>
+
+    <!-- Add more FAQ items as needed -->
+
+    <script>
+        function toggleAnswer(question) {
+            const answer = question.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
